@@ -1,0 +1,85 @@
+html,
+body{
+    height: 100%;
+
+}
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+main{
+    flex: 1 0 auto;
+}
+
+.footer{
+    flex: 0 0 auto;
+
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h1-h6{
+    margin: 0;
+    font-size: inherit;
+    font-weight: 700;
+    font-style: normal;
+    color: $dark;
+}
+h1{
+    font-size: 110px;
+    line-height: 134px;
+}
+h2{
+    font-size: 60px;
+    line-height: 80px;
+}
+h3{
+    font-size: 36px;
+    line-height: 51px;
+}
+a, label{
+    -webkit-tap-highlight-color: transparent;
+}
+a,
+button:focus,
+select:focus {
+	box-shadow: none;
+    outline: none;
+    border: none;
+}
+button:not(:disabled) {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+input,
+select,
+textarea{
+    outline: none;
+    cursor: pointer;
+    resize: none;
+}
+.d-flex{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}

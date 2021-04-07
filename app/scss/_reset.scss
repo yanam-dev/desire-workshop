@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+ol[class],
+ul[class]{
+    padding: 0;
+}
+
+body,
+h1-h6,
+p,
+ul,
+ol,
+li,
+p,
+figure,
+figcaption,
+blockquote,
+dl,
+dd{
+    margin: 0;
+}
+
+ul[class]{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+input,
+button,
+textarea,
+select{
+    font: inherit;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
