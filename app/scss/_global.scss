@@ -1,7 +1,6 @@
 html,
 body{
     height: 100%;
-
 }
 body{
     min-width: 320px;
@@ -10,6 +9,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
+    color: $default;
 }
 .wrapper{
     display: flex;
@@ -34,7 +34,8 @@ h1-h6{
     font-size: inherit;
     font-weight: 700;
     font-style: normal;
-    color: $dark;
+    color: #363838;
+    font-family: 'Montserrat', sans-serif;
 }
 h1{
     font-size: 110px;

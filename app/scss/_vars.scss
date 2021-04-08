@@ -1,7 +1,9 @@
-
+$default: #363838;
 $main-text: #5a5a5a;
 $dark: #363838;
 $light: #fffff0;
+$social-color: #707070;
+$line: #6D7278;
 
 @mixin f400{
     font-weight: normal;
@@ -42,4 +44,12 @@ $light: #fffff0;
     background-color: #363838;
     border-radius: 21px;
     border: 1px solid $dark;
+}
+@mixin footer-menu-socials {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: #707070;
 }
