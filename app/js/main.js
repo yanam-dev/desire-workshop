@@ -7,4 +7,6 @@ $(function(){
         $('.rightside-menu').addClass('rightside-menu--close');
     });
 
+//SLIDER main//
+
 })
