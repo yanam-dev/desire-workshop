@@ -1,10 +1,11 @@
 html,
 body{
     height: 100%;
+    position: relative;
+    overflow-x: hidden; 
 }
 body{
     min-width: 320px;
-    overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -19,16 +20,19 @@ body{
 main{
     flex: 1 0 auto;
 }
-
 .footer{
     flex: 0 0 auto;
-
 }
 .container{
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
 }
+.container-fluid{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 30px;
+} 
 h1,h2,h3,h4,h5,h6{
     margin: 0;
     font-size: inherit;
@@ -48,6 +52,12 @@ h2{
 h3{
     font-size: 36px;
     line-height: 51px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 16px;
 }
 a, label{
     -webkit-tap-highlight-color: transparent;
@@ -70,6 +80,9 @@ textarea{
     outline: none;
     cursor: pointer;
     resize: none;
+}
+img{
+    display: block;
 }
 .d-flex{
     display: flex;

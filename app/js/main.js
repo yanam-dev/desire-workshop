@@ -6,7 +6,6 @@ $(function(){
     $('.rightside-menu__close').on('click', function() {
         $('.rightside-menu').addClass('rightside-menu--close');
     });
-    // $('.rightside-menu').toggleClass();
 
 //SLIDER main//
     $('.top__slider').slick({

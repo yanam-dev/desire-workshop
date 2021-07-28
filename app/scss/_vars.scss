@@ -54,3 +54,15 @@ $yellow-details: #FFEF35;
     line-height: 28px;
     color: #707070;
 }
+%line-style{
+    position: relative;
+    &:after{
+        position: absolute;
+        content: '';
+        height: 1px;
+        background-color: $line;
+        max-width: 200px;
+        width: 100%;
+        left:0; 
+    }
+}
