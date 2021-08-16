@@ -93,7 +93,6 @@
             width: 100%;
             display: inline-block;
         }
-    
     }
 }
 /* HEADER end*/
@@ -295,7 +294,7 @@
                 content: '';
                 position: absolute;
                 left: 0;
-                bottom: -5px;
+                bottom: -6px;
                 border-radius: 50%;
                 width: 10px;
                 height: 10px;
@@ -305,6 +304,7 @@
                 &--production{
                     margin-left: 317px;
                     margin-bottom: 37px;
+                    padding-left: 25px;
                     position: relative;
                     &::after{
                         content: '';
@@ -334,7 +334,7 @@
                 &::before{
                     content: '';
                     position: absolute;
-                    top:-42px;
+                    top: -42px;
                     left: 0;
                     height: 20px;
                     width: 2px;
@@ -345,6 +345,31 @@
     }
 }
 // WORKFLOW SECTION end
+// gallery section start
+.gallery{
+    padding: 80px 0 90px;
+    &__buttons{
+        font-size: 14px;
+        font-weight: 600;
+        font-family: Open Sans;
+        font-style: normal;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 40px;
+        button{
+            color: #8F8D8D;
+            padding: 6px 16px;
+            border: 1px solid #dadada;
+            border-radius: 24px;
+            background-color: transparent;
+            margin: 0 ç13px;
+        }
+    }
+    &__inner{
+
+    }
+}
+// gallery section end
 //FOOTER start
 .footer{
     &__top{
