@@ -18,7 +18,7 @@ $(function(){
 
     var mixer = mixitup('.gallery__inner', {
         load: {
-            filter: '.living'
+            filter: '.kitchen'
         },
         
     });

@@ -63,6 +63,19 @@ $yellow-details: #FFEF35;
         background-color: $line;
         max-width: 200px;
         width: 100%;
-        left:0; 
+        left: 0; 
+    }
+}
+@mixin breadcrumbs-style {
+    height: 55px;
+    width: 100%;
+    background-color: #dfdfdf;
+    opacity: 0.5;
+    ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+    ul>li>a{
+        color: $main-text;
     }
 }
